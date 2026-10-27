@@ -1,0 +1,8 @@
+node_modules/
+test-results/
+*.zip
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store

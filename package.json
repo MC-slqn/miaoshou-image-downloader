@@ -1,0 +1,13 @@
+{
+  "name": "miaoshou-image-downloader",
+  "version": "1.2.0",
+  "private": true,
+  "description": "Select and download product and description images from the Miaoshou TikTok collection editor.",
+  "license": "MIT",
+  "scripts": {
+    "check": "node --check miaoshou-image-downloader.user.js",
+    "test": "npm run check && node tests/scope.cjs && node tests/zip.cjs"
+  },
+  "engines": { "node": ">=20" },
+  "devDependencies": { "playwright": "1.62.1" }
+}
